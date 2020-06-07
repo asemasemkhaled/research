@@ -1,0 +1,131 @@
+<!Doctype html>
+<html>
+
+<head>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url("img/1233.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+        
+        .navbar {
+            height: 90px;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.7);
+        }
+        
+        .logo {
+            width: 70px;
+            height: 70px;
+            margin-top: 5px;
+            margin-left: 5px;
+            border: 2px solid white;
+        }
+        
+        .navbar ul {
+            float: right;
+        }
+        
+        .navbar ul li {
+            list-style-type: none;
+            display: inline-block;
+            margin: 0 8px;
+            line-height: 50px;
+        }
+        
+        .navbar ul li a {
+            text-decoration: none;
+            color: whitesmoke;
+            font-size: 15px;
+            padding: 6px 13px;
+            transition: 1s;
+        }
+        
+        .navbar ul li a.active,
+        .navbar ul li a:hover {
+            background: crimson;
+            border-radius: -3px;
+        }
+        
+        .container .center {
+            position: absolute;
+            transform: translate(-50% -50%);
+            top: 50%;
+            left: 24%;
+            /*Sory It was not disciplined except this way.*/
+            font-family: sans-serif;
+        }
+        
+        .center h1 {
+            color: darkslategray;
+            font-size: 65px;
+            font-weight: bold;
+            width: 885;
+            margin-top: -50px;
+            text-align: center;
+        }
+        
+        .center h2 {
+            color: darkslategray;
+            font-size: 55px;
+            font-weight: bold;
+            width: 775;
+            margin-top: -50px;
+            text-align: center;
+        }
+        
+        .center .buttons {
+            margin: 35px 280px;
+        }
+        
+        .buttons button {
+            height: 50px;
+            width: 150px;
+            font-size: 18px;
+            color: white;
+            background: darkslategray;
+            border: solid 1.4px white;
+            outline: none;
+            border-radius: 15px;
+            transition: 3s;
+            font-weight: normal;
+        }
+        
+        .buttons .btn {
+            margin-left: 25px;
+        }
+        
+        .buttons button:hover {
+            background: crimson;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <img class="logo" src="img/123.png">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#"> Service</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="center">
+            <h1>welcome to my web site</h1>
+            <h2>create thomething new</h2>
+            <div class="buttons">
+                <button>subscribe</button>
+                <button class="btn">login</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
